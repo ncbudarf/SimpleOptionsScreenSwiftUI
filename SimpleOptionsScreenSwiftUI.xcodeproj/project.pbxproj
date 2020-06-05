@@ -13,6 +13,12 @@
 		1F7F0228248842610039DFB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F7F0227248842610039DFB9 /* Assets.xcassets */; };
 		1F7F022B248842610039DFB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F7F022A248842610039DFB9 /* Preview Assets.xcassets */; };
 		1F7F022E248842610039DFB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F7F022C248842610039DFB9 /* LaunchScreen.storyboard */; };
+		1F7F0236248AE8800039DFB9 /* OverlayTexture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F0235248AE8800039DFB9 /* OverlayTexture.swift */; };
+		1F7F0238248AE8BE0039DFB9 /* OverlayToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F0237248AE8BE0039DFB9 /* OverlayToggleView.swift */; };
+		1F7F023A248AE9360039DFB9 /* OverlayOpacityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F0239248AE9360039DFB9 /* OverlayOpacityView.swift */; };
+		1F7F023C248AE96D0039DFB9 /* OVerlayColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F023B248AE96D0039DFB9 /* OVerlayColor.swift */; };
+		1F7F023E248AEBA60039DFB9 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F023D248AEBA60039DFB9 /* UserSettings.swift */; };
+		1F7F0240248AF2AD0039DFB9 /* OverlayDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F023F248AF2AD0039DFB9 /* OverlayDivider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		1F7F022A248842610039DFB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1F7F022D248842610039DFB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F7F022F248842610039DFB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F7F0235248AE8800039DFB9 /* OverlayTexture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayTexture.swift; sourceTree = "<group>"; };
+		1F7F0237248AE8BE0039DFB9 /* OverlayToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayToggleView.swift; sourceTree = "<group>"; };
+		1F7F0239248AE9360039DFB9 /* OverlayOpacityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayOpacityView.swift; sourceTree = "<group>"; };
+		1F7F023B248AE96D0039DFB9 /* OVerlayColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVerlayColor.swift; sourceTree = "<group>"; };
+		1F7F023D248AEBA60039DFB9 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		1F7F023F248AF2AD0039DFB9 /* OverlayDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayDivider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,12 @@
 				1F7F0221248842600039DFB9 /* AppDelegate.swift */,
 				1F7F0223248842600039DFB9 /* SceneDelegate.swift */,
 				1F7F0225248842600039DFB9 /* ContentView.swift */,
+				1F7F0237248AE8BE0039DFB9 /* OverlayToggleView.swift */,
+				1F7F0239248AE9360039DFB9 /* OverlayOpacityView.swift */,
+				1F7F023B248AE96D0039DFB9 /* OVerlayColor.swift */,
+				1F7F0235248AE8800039DFB9 /* OverlayTexture.swift */,
+				1F7F023D248AEBA60039DFB9 /* UserSettings.swift */,
+				1F7F023F248AF2AD0039DFB9 /* OverlayDivider.swift */,
 				1F7F0227248842610039DFB9 /* Assets.xcassets */,
 				1F7F022C248842610039DFB9 /* LaunchScreen.storyboard */,
 				1F7F022F248842610039DFB9 /* Info.plist */,
@@ -148,7 +166,13 @@
 			files = (
 				1F7F0222248842600039DFB9 /* AppDelegate.swift in Sources */,
 				1F7F0224248842600039DFB9 /* SceneDelegate.swift in Sources */,
+				1F7F0236248AE8800039DFB9 /* OverlayTexture.swift in Sources */,
+				1F7F0238248AE8BE0039DFB9 /* OverlayToggleView.swift in Sources */,
 				1F7F0226248842600039DFB9 /* ContentView.swift in Sources */,
+				1F7F023E248AEBA60039DFB9 /* UserSettings.swift in Sources */,
+				1F7F023A248AE9360039DFB9 /* OverlayOpacityView.swift in Sources */,
+				1F7F023C248AE96D0039DFB9 /* OVerlayColor.swift in Sources */,
+				1F7F0240248AF2AD0039DFB9 /* OverlayDivider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

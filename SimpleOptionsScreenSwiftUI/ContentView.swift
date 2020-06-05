@@ -10,7 +10,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack(alignment: .leading) {
+            OverlayToggleView()
+            OverlayDivider()
+            OverlayOpacityView()
+            OverlayDivider()
+            OverlayColorListView()
+            OverlayDivider()
+            OverlayTexturesListView()
+            OverlayDivider()
+            Spacer()
+        }
+        
     }
 }
 
